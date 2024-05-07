@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Navbar</title>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <h3>My Portofolio</h3>
+            <div class="navbar-icon" onclick="toggleMenu()">☰</div>
+            <ul class="navbar-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#karya">Achievement</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#media">Media Sosial</a></li>
+                <!-- Add more menu items as needed -->
+            </ul>
+        </div>
+    </header>
+   <p>My Profil :</p>
+    <section id="home">
+        <div class="profile">
+            <img src="daf.jpeg" alt="Your Photo">
+            <div class="description">
+                <p>hallo nama saya,</p>
+                <h2>Daffa Fachri<br>
+                <span>Web Programmer/Developer</span></h2>
+                   
+                <p>Saya seorang web develover/programmer
+                    yang
+                    berdedikasi
+                    <br>untuk menghasilkan karya dan fitur website yang menarik dan bermanfaat secara visual dan
+                    ramah pengguna</p>
+                <p>scroll ke bawah👇 untuk info selengkapnya</p>
+                <!-- Add more details as needed -->
+            </div>
+            <div class="tombol">
+                <a href="#about">Tentang Saya</a>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <div class="tentang">
+        <p>achievement :</p>
+        <h2>Sertifikat</h2>
+        <p>• Di bawah ini merupakan penghargaan saya yang saya capai dari kelulusan pelatihan kompetensi frontend web yang di sediakan di coding indonesia
+        </p>
+        <img src="ser.jpeg">
+        <div id="karya">
+          
+        </div>
+        <h2>Karya</h2>
+        <p>Di bawah ini adalah website absensi ketidak hadiran kelas XI TJKT 2 yang saya buat menggunakan <strong>html,css,php</strong></p>
+        <img src="karya.jpeg">
+        <br>
+        <br>
+        <p>klick link di bawah ini untuk menuju ke web di atas</p>
+        <br>
+        <div class="tkj">
+        <a href="https://xitjkt2absensi.000webhostapp.com/">XI TJKT 2</a>
+        </div>
+        <br>
+        <h2>Skil Coding</h2>
+        <p>Di bawah ini adalah bahasa, database dan framework yang telah saya kuasai</p>
+        
+        <div class="logo-container">
+        <img src="html-removebg-preview.png" alt="">
+        <img src="css-removebg-preview.png" alt="">
+        <img src="php.png" alt="">
+        </div>
+        <div class="database">
+            <h4>Database :</h4>
+            <img src="mysql-removebg-preview.png" alt="">
+            <img src="admin-removebg-preview.png" alt="">
+        </div>
+        <div class="tools">
+            <h4>Tools</h4>
+            <img src="github-removebg-preview.png" alt="">
+            <img src="git-removebg-preview.png" alt="">
+        </div>
+        <div class="boot">
+            <h4>Framework :</h4>
+            <img src="bootstrap.png" alt="">
+        </div>
+    </div>
+    <hr>
+    <div class="about">
+      <p>about :</p>
+      <h2>Tentang Saya</h2>
+      <div id="about"></div>
+      <p>Perkenalkan diri nama saya Daffa Fachri, Saat ini saya 
+      
+      merupakan 
+      siswa SMK NEGERI 1 RANGKASBITUNG
+      <br>kelas XI jurusan TJKT (Teknik Jaringan Komputer & Telekomunikasi)</p>
+      <br>
+      <h2>Pendidikan</h2>
+      <P>• SDN  1  KADUAGUNG TIMUR</P>
+      <p>• SMPN 1 RANGKASBITUNG</p>
+      <p>• SMKN 1 RANGKASBITUNG</p>
+    </div>
+    <div class="kontak-container">
+      <h1>Media Sosial</h1>
+      <p>Ikuti Saya di media sosial untuk informasi terbaru:</p>
+    
+      <div class="media-sosial">
+        <div id="media"></div>
+        <a href="https://www.tiktok.com/@daoa.4322?_t=8jhod2pYZak&_r=1" target="_blank">Tiktok</a>
+        <a href="https://www.instagram.com/oncx_daf?igsh=bHEwMzZ1aWh3MGpz" target="_blank">Instagram</a>
+      </div>
+      <hr>
+    </div>
+    <footer>
+      <p>Copyright ©Daffa</p>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.navbar-menu');
+            menu.classList.toggle('show');
+        }
+    </script>
+</body>
+</html>
